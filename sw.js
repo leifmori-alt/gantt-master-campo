@@ -2,7 +2,7 @@
 // archivos de código y estilos, el manifiesto y los íconos) y desde ahí funciona sin internet (primero lo guardado; si
 // hay señal, se actualiza para la próxima vez). Los datos (obras y fotos) no pasan por aquí: viven en el celular.
 // Al publicar, el nombre lleva la versión (vite.campo.config.mts): cada versión nueva se guarda completa y se borra la anterior.
-const CACHE = 'gm-campo-202611131510'
+const CACHE = 'gm-campo-202611131530'
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png']
 
 self.addEventListener('install', (e) => {
